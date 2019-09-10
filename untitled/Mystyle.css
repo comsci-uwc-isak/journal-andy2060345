@@ -1,0 +1,28 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #f00;
+  background-color: #fff;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  border: solid #16801d;
+}
+h1 {
+  text-align: center;
+}
+ul.navbar {
+  list-style-type: none;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em;
+}
+ul.navbar li {
+  background: #fff;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid #16801d;
+}
+h2 {
+  text-align: center;
+}

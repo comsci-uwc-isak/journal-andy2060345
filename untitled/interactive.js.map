@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "interactive.js",
+  "sourceRoot": "",
+  "sources": [
+    "interactive.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,IAAA,EAAA,IAAA,EAAA,IAAA,EAAA;;EAAA,IAAA,GAAO,IAAI;;EACX,IAAA,GAAO,IAAI,IAAJ,CAAS,KAAK,CAAC,WAAN,CAAA,CAAT,EAA8B,EAA9B,EAAkC,EAAlC;;EACP,IAAG,KAAK,CAAC,QAAN,CAAA,CAAA,KAAoB,EAApB,IAA2B,KAAK,CAAC,OAAN,CAAA,CAAA,GAAkB,EAAhD;IACE,IAAI,CAAC,WAAL,CAAiB,IAAI,CAAC,WAAL,CAAA,CAAA,GAAqB,CAAtC,EADF;;;EAEA,OAAA,GAAU,IAAA,GAAO,EAAP,GAAY,EAAZ,GAAiB;;EAE3B,IAAA,GAAO,IAAI,CAAC,IAAL,CAAU,CAAC,IAAI,CAAC,OAAL,CAAA,CAAA,GAAiB,KAAK,CAAC,OAAN,CAAA,CAAlB,CAAA,GAAqC,OAA/C;;EACP,KAAA,CAAM,IAAA,GAAO,6BAAb;AAPA",
+  "sourcesContent": [
+    "oday = new Date\r\ncmas = new Date(today.getFullYear(), 11, 25)\r\nif today.getMonth() == 11 and today.getDate() > 25\r\n  cmas.setFullYear cmas.getFullYear() + 1\r\none_day = 1000 * 60 * 60 * 24\r\n\r\ndays = Math.ceil((cmas.getTime() - today.getTime()) / one_day)\r\nalert days + ' days left until Christmas!'\r\n"
+  ]
+}
